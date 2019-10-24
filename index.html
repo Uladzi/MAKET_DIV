@@ -7,11 +7,45 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MAKET_DIV</title>
     <style>
+        @media only all and (max-width: 450px) {
+            .greetings,
+            .motto {
+                display: none;
+            }
+            .sitecore {
+                display: table;
+            }
+            .sitecore .about-football {
+                background: none;
+                display: table-header-group;
+                text-align: justify;
+            }
+            .sitecore .paragraphs {
+                padding: 0;
+            }
+            .sitecore .paragraphs p {
+                margin: 10px 0 10px 0;
+            }
+            .sitecore .kinds-of-sport {
+                display: table-footer-group;
+                float: none;
+                position: relative;
+                height: auto;
+                width: auto;
+                text-align: center;
+            }
+            .about-football img {
+                margin: 0;
+                width: 100%;
+                float: none;
+            }
+        }
+        
         .greetings {
             padding: 10px;
             text-align: center;
             font-weight: bold;
-            add . background-color: #add8e6;
+            background-color: #add8e6;
             color: blue;
             text-transform: uppercase;
         }
@@ -58,6 +92,7 @@
         
         img {
             margin: 0 20px;
+            width: 200px;
             float: left;
         }
         
