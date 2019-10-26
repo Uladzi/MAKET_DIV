@@ -1,0 +1,113 @@
+@media only all and (max-width: 450px) {
+    .greetings,
+    .motto {
+        display: none;
+    }
+    .sitecore {
+        display: table;
+    }
+    .sitecore .about-football {
+        background: none;
+        display: table-header-group;
+        text-align: justify;
+    }
+    .sitecore .paragraphs {
+        padding: 0;
+    }
+    .sitecore .paragraphs p {
+        margin: 10px 0 10px 0;
+    }
+    .sitecore .kinds-of-sport {
+        display: table-footer-group;
+        float: none;
+        position: relative;
+        height: auto;
+        width: auto;
+        text-align: center;
+    }
+    .about-football img {
+        margin: 0;
+        width: 100%;
+        float: none;
+    }
+}
+
+.greetings {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #add8e6;
+    color: blue;
+    text-transform: uppercase;
+}
+
+.sitecore {
+    width: 100%;
+    position: relative;
+}
+
+.kinds-of-sport {
+    padding-right: 20px;
+    float: left;
+    width: 155px;
+    height: 100%;
+    position: absolute;
+    background-color: #f0e68c;
+}
+
+.boldtitle {
+    margin-top: 0;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+.about-football {
+    margin-left: 175px;
+    vertical-align: top;
+    min-height: 322px;
+    background: url(ball_top.png) repeat-y right, url(ball_top.png) no-repeat right top, url(ball_top.png) no-repeat right bottom;
+}
+
+.paragraphs {
+    padding: 0 20px;
+}
+
+.paragraphs p {
+    margin-bottom: 0;
+}
+
+img {
+    margin: 0 20px;
+    width: 200px;
+    float: left;
+}
+
+.motto {
+    padding: 10px;
+    clear: both;
+    text-align: center;
+    font-weight: bold;
+    background-color: #add8e6;
+    color: blue;
+    text-transform: uppercase;
+}
+
+.joinClub-block {
+    position: fixed;
+    right: 3%;
+    top: 3%;
+    padding: 10px;
+    width: 85px;
+    cursor: pointer;
+    background-color: lightgreen;
+    border: solid green 1px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 10px;
+    z-index: 1;
+}
